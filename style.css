@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    padding: 2rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.main-cont{
+    display: flex;
+    position: relative;
+}
+
+.post{
+    height:100vh;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tobe{
+    font-size:1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#posting{
+    border:none;
+    resize:none;
+    outline:none;
+    padding: 1rem;
+}
+
+.creating-post{
+    border: 2px solid rgb(159, 157, 157);
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.post{
+    background-color: aliceblue;
+}
+
+.text-area{
+    display: flex;
+}
+
+.countandbtn{
+    display: flex;
+    justify-content: space-between;
+    margin:2rem;
+}
+
+.count{
+    color: grey;
+}
+
+.post-btn{
+    padding:1rem;
+    background-color: blue;
+    color: #fff;
+    border-radius: 1rem;
+    border:none;
+}
+
+.person{
+    height: 2.5rem;
+    margin:1rem;
+}
+
+.feed-cont{
+    height: 100vh;
+    width:25vw;
+}
+
+.feed{
+    border: 2px solid rgb(159, 157, 157);
+    border-radius: 1rem;
+    margin: 1.5rem;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.edit{
+    height: 1.5rem;
+}
+
+.delete-icon{
+    height: 1.5rem;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;   
+}
+
+.twitid{
+    color:slategray;
+}
+
+.footer-icons{
+    display: flex;
+    margin:1rem;
+    gap: 2rem;
+}
+
+.delete-confirm{
+    height:100vh;
+    width: 100vw;
+    background-color: rgb(49, 48, 48);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.delete-modal{
+    height:40vh;
+    width:40vw;
+    background-color: #fff;
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+}
+
+.decision-btns{
+    display: flex;
+    right: 1rem;
+    bottom:1rem;
+}
+
+#posting-in-feed{
+    border: none;
+    outline:none;
+    resize:none;
+}
+
